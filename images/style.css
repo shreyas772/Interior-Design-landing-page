@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url(./assets/background.webp);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+}
+
+
+.logo{
+   margin-top: 70px;
+   margin-left: 70px;
+    width: 100px;
+}
+
+nav{
+    height: 10vh;
+    color: white;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-top: -70px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    margin-right: 0.4rem;
+}
+
+nav a::after{
+    content: '';
+    display: block;
+    border-bottom: 2px solid white;
+    position: absolute;
+    left: 30%;
+    right: 0;
+    top: 25%;
+}
+
+.class-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 33px;
+    text-decoration: none;
+    color: white;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: row;
+    margin-right: 20px;
+}
+
+.contact-img{
+    width: 12%;
+    height: auto;
+    fill: white;
+}
+
+.contact-details{
+    font-size: 15px;
+    width: 200px;
+    margin-left: 10px;
+}
+.hero{
+    height: 80vh;
+}
+.left-section{
+    float: left;
+    justify-content: center;
+    align-items: center;
+    margin-top: 180px;
+    width: 50%;
+    color: white;
+    margin-left: 100px;
+}
+
+.left-section h1 {
+    font-size: 60px;
+}
+
+.left-section button{
+    margin-top: 80px;
+    padding: 15px 60px;
+    border-radius: 25px;
+    background-color: #00bbd400;
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+.card{
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff40;
+    padding: -1px -1px;
+}
+
+.card P{
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    padding: 0 20px;
+    color: #ffffff;
+}
+
+.card img{
+    width: 75%;
+    height: auto;
+} 
+
+.card .inside-box{
+    border: none;
+    justify-items: center;
+    align-items: center;
+    /* margin-right: 40px; */
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    padding: 1px 15px;
+    border-radius: 20px;
+}
+
+.line{
+    position: absolute;
+    background-color: #ffffff6e;
+    border: none;
+    height: 40px;
+    width: 2px;
+}
+
+.cardone{
+    position: absolute;
+    top: 100%;
+    left: 800px;
+    width: 160px;
+}
+
+.cardone .outerbtnone{
+    position: relative;
+    padding: 5px 5px;
+    border-radius: 20px;
+    left: 200px;
+    bottom: 60px;
+    background-color: #ffffff;
+}
+
+.lineone{
+    top: 24px;
+    right: -22px;
+    transform: rotate(90deg);
+}
+
+.cardtwo{
+    position: absolute;
+    left: 950px;
+    top: 40%;
+}
+
+.cardtwo .outerbtntwo{
+    position: relative;
+    padding: 5px 5px;
+    border-radius: 20px;
+    right: -110px;
+    top: 53px;
+    background-color: #ffffff;
+}
+
+.linetwo{
+    top: 95px;
+    right: 48px;
+}

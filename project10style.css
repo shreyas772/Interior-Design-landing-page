@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+*{
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  
+  
+}
+body{
+font-family: 'Roboto', sans-serif;
+  background-image: url('./images/snow-chair.jpg');
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+    
+}
+
+.call-info{
+    float:right;
+    color: white;
+    margin-left: 10px;
+    margin-top: -13px;
+}
+
+.call-image{
+    top: 7px;
+    width: 25px;
+    position: relative;
+}
+
+.text{
+   
+}
+
+
+
+html{
+  overflow-x: hidden;
+}
+
+nav {
+    padding: 0px 4rem;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+.navbar-items::after{
+    content: '';
+    border-bottom: 2px solid white;
+    display: block;
+    padding: 20px;
+}
+
+.logo{
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 130px;
+}
+
+.nav-item{
+padding: 0px 40px;
+color: white;
+
+}
+
+h1{
+  color: white;
+  width: 12em;
+font-size: 60px;
+}
+
+.hero-section{
+   
+    flex-direction: row;
+    padding: 0 8rem;
+}
+
+.learn-btn{
+    margin-top: 5rem;
+    font-size: 28px;
+    cursor: pointer;
+    padding: 8px 32px;
+    border: 3px solid white;
+    border-radius: 30px;
+    background-color: transparent;
+    color: white;
+    text-transform: uppercase;
+}
+
+/* BOX first */
+
+.text-section{
+    margin-top: 4rem;
+}
+
+.box-round-line{
+    margin-top: 36px;
+    right: 80px;
+    position: absolute;
+    border: none;
+    width: 300px;
+    height: 150px;
+    background-color: rgb(49, 70, 86,0.6);
+
+}
+
+.box-inside{
+    padding: 30px;
+}
+
+.vertical-line{
+    right: 80px;
+    bottom: -72px;
+    border-right: 1px solid white;
+    height: 72px;
+    width: 1px;
+    margin: 0 auto;
+    position: absolute;
+}
+
+.round{
+    left: -9px;
+    bottom: -15px;
+    position: absolute;
+    width: 20px;
+    border-radius: 20px;
+    height: 20px;
+}
+
+/* button common css */
+
+.puzzle-btn,.bulb-btn{
+    padding: 2px 28px;
+    border-radius: 20px;
+    border: none;
+}
+.puzz-text ,.bulb-text{
+    color: white;
+    width: 14em;
+    line-height: 1.2;
+    padding: 4px;
+}
+
+/* button common css ends */
+
+
+/* Box-second */
+
+.box-line-horizental{
+    float: right;
+    border: none;
+    width: 300px;
+    height: 150px;
+    background-color: rgb(49, 70, 86,0.6);
+    margin-top: -3rem;
+    margin-right: 14rem;
+    
+}
+
+
+.horizantal-line{
+    border-bottom: 2px solid white;
+    width: 70px;
+    right: 17.7rem;
+    margin-top: 28px;
+    position: absolute;
+}
+
+.line-round{
+    left: 68px;
+    bottom: -11px;
+    position: absolute;
+    width: 20px;
+    border-radius: 20px;
+    height: 20px;
+}
+
+
